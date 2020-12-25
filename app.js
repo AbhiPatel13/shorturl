@@ -3,7 +3,7 @@ const app = express();
 var shortUrl = require('node-url-shortener');
 const path = require("path");
 const hbs = require("hbs");
-const port = 8000 || process.env.PORT;
+const port = process.env.PORT ||  8000 ;
 
 const mainpath = path.join(__dirname,"../SHORTENURLPROJECT");
 
