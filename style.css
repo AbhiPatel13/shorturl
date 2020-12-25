@@ -1,0 +1,248 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color:blue;
+  
+}
+nav{
+    background-color:#660066;
+}
+.imagebox h2{
+    color:black;
+    font-weight:1000px;
+    text-shadow: 2px 2px white;
+    font-size:32px;
+}
+.toggleicon{
+    display: none;
+    background-color:purple;
+    width:100%;
+    height: 50px;;
+    z-index:11111111;
+
+}
+.toggleicon{
+    
+}
+
+@media only screen and (min-width:768px)
+{
+   
+
+   .toggleicon {
+    display: block;
+    position: absolute;
+    
+    color:white;
+    font-size:25px;
+    text-align: center;
+}
+
+
+
+#navul li{
+    display: flex;
+    position:relative;
+    border:2px solid black;
+    flex-direction: row;
+    width:100%;
+    height:60px;
+    margin:0px 0px;
+    padding:0px 0px;
+    background-color:purple;
+    z-index: 1111;
+  
+    
+
+}
+#navul li a{
+
+    padding:10px 10px;
+    
+
+}
+
+#navul li:first-child
+{
+    margin-top:26px;
+    border-top:2px solid black;
+}
+#navul li a{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin:20px 10px;
+ font-weight:1000px;
+ padding:0px 10px;
+}
+nav ul li a:hover{
+    color:black;
+    border:none;
+    background-color:transparent;
+ 
+}
+nav ul li{
+    margin:0px 0px;
+}
+#navul li:first-child {
+    margin-top: 40px;
+    border-top: 2px solid black;
+}
+}
+
+@media only screen and (max-width:768px)
+{
+    .toggleicon {
+        display: block;
+        position: absolute;
+        
+        color:white;
+        font-size:25px;
+        text-align: center;
+    }
+    nav ul{
+         display: none;
+         z-index: 1111;
+         
+    }
+    #navul li{
+        display: flex;
+        position:relative;
+        border:2px solid black;
+        flex-direction: row;
+        width:100%;
+        height:60px;
+        margin:0px 0px;
+        padding:0px 0px;
+        background-color:purple;
+        z-index: 1111;
+      
+        
+    
+    }
+    #navul li a{
+ 
+        padding:10px 10px;
+        
+    
+    }
+   
+    #navul li:first-child
+    {
+        margin-top:26px;
+        border-top:2px solid black;
+    }
+    #navul li a{
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        margin:20px 10px;
+     font-weight:1000px;
+     padding:0px 10px;
+    }
+    nav ul li a:hover{
+        color:black;
+        border:none;
+        background-color:transparent;
+     
+    }
+    nav ul li{
+        margin:0px 0px;
+    }
+    #navul li:first-child {
+        margin-top: 40px;
+        border-top: 2px solid black;
+    }
+
+}
+nav ul{
+    display: none;
+    height:50px;
+    padding:12px;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    /* background-color: red;; */
+    padding:10px 5px;
+    margin:5px 10px;;
+    cursor: pointer;
+    transition:0.6s;
+}
+
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    margin:20px 10px;
+ font-weight:1000px;
+ padding:10px 10px;
+
+}
+#clickme{
+    cursor: pointer;;
+}
+/* nav ul li a:hover{
+    color:tan;
+    border:2px solid tan;
+    background-color:tan;
+    color:black;
+} */
+.imagebox{
+    background-color:tan;
+    text-align:center;
+    padding:10px 10px;
+}
+.bodypart
+{
+    width:100%;
+    height:300px;
+    background-color:yellow;
+}
+#toggleon{
+    position: relative;;
+    animation:toggle 0s ease-in 0s;
+    animation-iteration-count: infinite;
+    transition: all;
+  
+}
+@keyframes toggle{
+    from{
+
+        transform : rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+
+        
+    }
+}
+
+.toolbox{
+    width:100%;
+    /* height:1000px; */
+    background-color: tan;
+}
+.toolboxs{
+    margin-top:30px;
+    /* background-color:black; */
+    padding:10px 10px;
+    text-align: center;
+    display: block;
+}
+.toolboxs:first-child{
+    margin-top:80px;
+}
+.toolboxs a{
+    color:white;
+    text-align: center;
+    font-size:23px;
+    color:rebeccapurple;
+    font-weight: 1000;
+
+}
